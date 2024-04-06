@@ -1,0 +1,2 @@
+[ERROR Mon 01 Apr 2024 01:15:46 PM WIB] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:132: debounce  filesystem_navigate  error:  ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/ui/renderer.lua:1036: Failed to rename buffer
+[ERROR Mon 01 Apr 2024 01:15:50 PM WIB] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:132: debounce  filesystem_navigate  error:  ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/ui/renderer.lua:1036: Failed to rename buffer

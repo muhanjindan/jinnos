@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,jinn
+network:x:90:jinn
+power:x:98:jinn
+adm:x:999:jinn
+wheel:x:988:jinn
+uucp:x:987:jinn
+optical:x:990:jinn
+rfkill:x:983:jinn
+video:x:986:jinn
+storage:x:988:jinn
+audio:x:985:jinn
+users:x:985:jinn
+nopasswdlogin:x:966:jinn
+autologin:x:967:jinn
+jinn:x:1000:

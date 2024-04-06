@@ -1,0 +1,4 @@
+#! /bin/zsh
+
+cd ~/applications/
+./responsivelyapp.AppImage
