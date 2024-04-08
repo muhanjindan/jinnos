@@ -1,1 +1,0 @@
-{"name":"vue-language-server","links":{"bin":{"vue-language-server":"node_modules\/.bin\/vue-language-server"},"opt":{},"share":{}},"metrics":{"completion_time":1711973797646,"start_time":1711973776878},"primary_source":{"type":"registry+v1","id":"pkg:npm\/%40vue\/language-server@2.0.7"},"schema_version":"1.1","secondary_sources":[]}

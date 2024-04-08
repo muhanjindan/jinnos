@@ -110,7 +110,7 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
-tmux
+#tmux
 tpm2-tools
 tpm2-tss
 udftools
@@ -201,8 +201,8 @@ nodejs
 npm
 yarn
 pnpm
-mariadb
-dbeaver
+#mariadb
+#dbeaver
 
 
 # utility
@@ -220,16 +220,16 @@ nitrogen
 networkmanager
 base-devel
 linux-headers
-nvidia
+#nvidia
 
 
 # software
 
-gimp
-inkscape
-synfigstudio
-blender
-bitwarden
+#gimp
+#inkscape
+#synfigstudio
+#blender
+#bitwarden
 
 
 
