@@ -15,4 +15,4 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 
-echo "yay successfull instaled."
+echo "yay successfull installed."
