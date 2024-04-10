@@ -15,16 +15,13 @@ navigation: widget
 
 
 strings:
-    productName:         DTOS
-    shortProductName:    DTOS
+    productName:         jinnos
+    shortProductName:    jinnos
     version:             2023.08
     shortVersion:        2023.08
-    versionedName:       DTOS
-    shortVersionedName:  DTOS
-    bootloaderEntryName: DTOS
-    productUrl:          https://distro.tube/dtos/
-    supportUrl:          https://distro.tube/dtos/
-    releaseNotesUrl:     https://distro.tube/dtos/
+    versionedName:       jinnos
+    shortVersionedName:  jinnos
+    bootloaderEntryName: jinnos
 
 
 uploadServer :
