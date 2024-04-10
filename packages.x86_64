@@ -221,6 +221,8 @@ nitrogen
 networkmanager
 base-devel
 linux-headers
+
+#driver
 #nvidia
 
 
