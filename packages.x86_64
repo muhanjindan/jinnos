@@ -223,7 +223,8 @@ base-devel
 linux-headers
 
 #driver
-#nvidia
+
+nvidia
 
 
 # software
