@@ -166,6 +166,8 @@ udiskie
 dunst
 lightdm
 lightdm-gtk-greeter
+polkit
+polkit-gnome
 
 
 # shell 
