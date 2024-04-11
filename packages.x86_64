@@ -221,6 +221,7 @@ nitrogen
 networkmanager
 base-devel
 linux-headers
+os-prober
 
 #driver
 
