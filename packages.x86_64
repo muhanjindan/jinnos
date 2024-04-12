@@ -157,8 +157,10 @@ pipewire-zeroconf
 bspwm
 conky
 dunst
+deadbeef
 lightdm
 lightdm-gtk-greetersxhkd
+mpv
 polybar
 polkit
 polkit-gnome
@@ -181,12 +183,10 @@ zsh-syntax-highlighting
 alacritty
 curl
 feh
-ffmpeg
 fzf
 git
 htop
 lsd
-mpd
 neofetch
 neovim
 neovide
