@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Neovim
+Exec=alacritty -e nvim %F
+Terminal=false
+Type=Application
+keyword=Text;editor;
+Icon=nvim
+Categories=Utility;TextEditor;
+StartupNotify=false
