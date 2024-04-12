@@ -10,17 +10,17 @@ bolt
 brltty
 broadcom-wl
 btrfs-progs
-clonezilla
-cloud-init
-cryptsetup
+#clonezilla
+#cloud-init
+#cryptsetup
 darkhttpd
 ddrescue
 dhclient
 dhcpcd
 diffutils
-dmidecode
-dmraid
-dnsmasq
+#dmidecode
+#dmraid
+#dnsmasq
 dosfstools
 e2fsprogs
 edk2-shell
@@ -45,7 +45,7 @@ irssi
 iw
 iwd
 jfsutils
-kitty-terminfo
+#kitty-terminfo
 ldns
 less
 lftp
@@ -58,7 +58,7 @@ linux-firmware-marvell
 livecd-sounds
 lsscsi
 lvm2
-lynx
+#lynx
 man-db
 man-pages
 mc
@@ -74,15 +74,15 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
+#nmap
 ntfs-3g
 nvme-cli
 open-iscsi
 open-vm-tools
-openconnect
+#openconnect
 openpgp-card-tools
 openssh
-openvpn
+#openvpn
 partclone
 parted
 partimage
@@ -90,13 +90,13 @@ pcsclite
 ppp
 pptpclient
 pv
-qemu-guest-agent
+#qemu-guest-agent
 refind
 reflector
 reiserfsprogs
 rp-pppoe
 rsync
-rxvt-unicode-terminfo
+#rxvt-unicode-terminfo
 screen
 sdparm
 sequoia-sq
@@ -118,13 +118,13 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
+#virtualbox-guest-utils-nox
 vpnc
-wezterm-terminfo
+#wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
-wvdial
+#wvdial
 xfsprogs
 xl2tpd
 zsh
@@ -154,21 +154,19 @@ pipewire-zeroconf
 
 # desktop
 
-xorg
 bspwm
-sxhkd
-polybar
-rofi
-thunar
 conky
-udisks2
-udiskie
 dunst
 lightdm
-lightdm-gtk-greeter
+lightdm-gtk-greetersxhkd
+polybar
 polkit
 polkit-gnome
-
+rofi
+thunar
+udisks2
+udiskie
+xorg
 
 # shell 
 
@@ -181,49 +179,51 @@ zsh-syntax-highlighting
 # terminal
 
 alacritty
-opendoas
+curl
+feh
+ffmpeg
+fzf
+git
+htop
 lsd
+mpd
+neofetch
 neovim
 neovide
-xclip
-git
-curl
-unzip
-htop
-feh
-thefuck
-mpd
+opendoas
 ripgrep
-fzf
-neofetch
+thefuck
+unzip
+xclip
+
 
 
 # code
 
+#dbeaver
+#mariadb
 nodejs
 npm
-yarn
 pnpm
-#mariadb
-#dbeaver
+yarn
 
 
 # utility
 
-ttf-hack-nerd
-lxappearance
-qt5ct
-picom
-zathura
-zathura-pdf-mupdf
-xdg-utils
-syncthing
-scrot
-nitrogen
-networkmanager
 base-devel
 linux-headers
-os-prober
+lxappearance
+nitrogen
+networkmanager
+#os-prober
+picom
+syncthing
+scrot
+ttf-hack-nerd
+qt5ct
+xdg-utils
+zathura
+zathura-pdf-mupdf
 
 #driver
 
@@ -232,11 +232,12 @@ nvidia
 
 # software
 
+
+#blender
+#bitwarden
 #gimp
 #inkscape
 #synfigstudio
-#blender
-#bitwarden
 
 
 
@@ -244,7 +245,3 @@ nvidia
 
 alci-calamares
 gparted
-
-
-#systemctl enable dbus.service
-#systemctl enable lightdm.service
