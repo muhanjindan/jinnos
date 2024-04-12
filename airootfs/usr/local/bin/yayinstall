@@ -15,4 +15,5 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 
-echo "yay successfull installed."
+rm -rf /etc/calamares
+
