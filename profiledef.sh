@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="jinn"
-iso_label="jinn$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_name="jinnos"
+iso_label="jinnos$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="jinnos <https://archlinux.org>"
 iso_application="jinnos Live/Rescue DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
@@ -33,5 +33,5 @@ file_permissions=(
 	["/usr/local/bin/choose-mirror"]="0:0:755"
 	["/usr/local/bin/Installation_guide"]="0:0:755"
 	["/usr/local/bin/livecd-sound"]="0:0:755"
- ["/usr/local/bin/"]="0:0:755"
+        ["/usr/local/bin/"]="0:0:755"
 )
