@@ -113,6 +113,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
   alias reboot='doas reboot'
   alias poweroff='doas poweroff'
   alias ls='lsd'
-  alias update='doas pacman -Syu'
+  alias update='doas pacman -Syu --noconfirm'
   alias syc='doas pacman -Syy'
   alias zsrc='source ~/.zshrc'
