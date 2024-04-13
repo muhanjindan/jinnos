@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>Alacritty</icon>
-	<name>Open Terminal Here</name>
-	<submenu></submenu>
-	<unique-id>1711958568573535-1</unique-id>
-	<command>alacritty</command>
-	<description>Example for a custom action</description>
-	<range></range>
-	<patterns>*</patterns>
-	<startup-notify/>
-	<directories/>
+<icon>Alacritty</icon>
+<name>Open Terminal Here</name>
+<submenu/>
+<unique-id>1711958568573535-1</unique-id>
+<command>alacritty</command>
+<description>Example for a custom action</description>
+<range/>
+<patterns>*</patterns>
+<startup-notify/>
+<directories/>
 </action>
 <action>
-	<icon>nvim</icon>
-	<name>neovim</name>
-	<submenu></submenu>
-	<unique-id>1712009911925913-1</unique-id>
-	<command>exo-open --launch=TerminalEmulator nvim</command>
-	<description></description>
-	<range>*</range>
-	<patterns>*</patterns>
+<icon>nvim</icon>
+<name>neovim</name>
+<submenu/>
+<unique-id>1712009911925913-1</unique-id>
+<command>exo-open --launch=TerminalEmulator nvim</command>
+<description/>
+<range>*</range>
+<patterns>*</patterns>
+</action>
+<action>
+<icon>feh</icon>
+<name>feh</name>
+<submenu/>
+<unique-id>1712896275573758-1</unique-id>
+<command>feh --scale-down --auto-zoom %f</command>
+<description>image viewer</description>
+<range>*</range>
+<patterns>*</patterns>
+</action>
+<action>
+<icon>dialog-password</icon>
+<name>open folder as root</name>
+<submenu/>
+<unique-id>1712974519437060-1</unique-id>
+<command>gkdoas thunar %f %d</command>
+<description>open a folder as superuser</description>
+<range>*</range>
+<patterns>*</patterns>
 </action>
 </actions>
