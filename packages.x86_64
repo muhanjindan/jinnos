@@ -159,12 +159,13 @@ bspwm
 conky
 dunst
 lightdm
-lightdm-gtk-greetersxhkd
+lightdm-gtk-greeter
 mpv
 polybar
 polkit
 polkit-gnome
 rofi
+sxhkd
 thunar
 udisks2
 udiskie
