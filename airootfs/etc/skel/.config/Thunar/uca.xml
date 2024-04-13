@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
 <icon>Alacritty</icon>
@@ -21,6 +20,7 @@
 <description/>
 <range>*</range>
 <patterns>*</patterns>
+<text-files/>
 </action>
 <action>
 <icon>feh</icon>
@@ -31,15 +31,39 @@
 <description>image viewer</description>
 <range>*</range>
 <patterns>*</patterns>
+<image-files/>
 </action>
 <action>
 <icon>dialog-password</icon>
 <name>open folder as root</name>
 <submenu/>
 <unique-id>1712974519437060-1</unique-id>
-<command>gkdoas thunar %f %d</command>
+<command>gkdoas thunar %f</command>
 <description>open a folder as superuser</description>
 <range>*</range>
 <patterns>*</patterns>
+<directories/>
+</action>
+<action>
+<icon>mpv</icon>
+<name>mpv</name>
+<submenu/>
+<unique-id>1712976183752680-1</unique-id>
+<command>mpv %f</command>
+<description>open video</description>
+<range>*</range>
+<patterns>*</patterns>
+<video-files/>
+</action>
+<action>
+<icon>audacious</icon>
+<name>audacious</name>
+<submenu/>
+<unique-id>1712976227589416-2</unique-id>
+<command>audacious %f</command>
+<description>open audio file</description>
+<range>*</range>
+<patterns>*</patterns>
+<audio-files/>
 </action>
 </actions>
