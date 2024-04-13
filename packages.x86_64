@@ -154,10 +154,10 @@ pipewire-zeroconf
 
 # desktop
 
+audacious
 bspwm
 conky
 dunst
-deadbeef
 lightdm
 lightdm-gtk-greetersxhkd
 mpv
