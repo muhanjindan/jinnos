@@ -108,4 +108,4 @@ super + b
     brave
 # scrot screensaver
 Print
-  scrot -e 'mv $f ~/pictures/screensaver/'
+  scrot -e 'mv $f ~/pictures/screenshot/'
