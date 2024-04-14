@@ -1,50 +1,43 @@
+autoload -U colors
+autoload -U compinit
 
-local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
-local user_host="%B%(!.%{$fg[red]%}.%{$fg[green]%})%n@%m%{$reset_color%} "
-local user_symbol='%(!.#.$)'
-local current_dir="%B%{$fg[blue]%}%~ %{$reset_color%}"
+unsetopt menu_complete
+unsetopt flowcontrol
+setopt prompt_subst
+setopt always_to_end
+setopt append_history
+setopt auto_menu
+setopt complete_in_word
+setopt extended_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_ignore_space
+setopt hist_verify
+setopt inc_append_history
+setopt share_history
+setopt no_list_ambiguous
 
-local vcs_branch='$(git_prompt_info)$(hg_prompt_info)'
-local rvm_ruby='$(ruby_prompt_info)'
-local venv_prompt='$(virtualenv_prompt_info)'
-if [[ "${plugins[@]}" =~ 'kube-ps1' ]]; then
-    local kube_prompt='$(kube_ps1)'
-else
-    local kube_prompt=''
-fi
+colors
+compinit
 
-ZSH_THEME_RVM_PROMPT_OPTIONS="i v g"
+DIRSTACKSIZE=8
+HISTSIZE=5000
+SAVEHIST=5000
+HISTFILE=~/.zsh_history
+MAILCHECK=0
 
-PROMPT="╭─${user_host}${current_dir}${rvm_ruby}${vcs_branch}${venv_prompt}${kube_prompt}
-╰─%B${user_symbol}%b "
-RPROMPT="%B${return_code}%b"
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[yellow]%}‹"
-ZSH_THEME_GIT_PROMPT_SUFFIX="› %{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}●%{$fg[yellow]%}"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[yellow]%}"
 
-ZSH_THEME_HG_PROMPT_PREFIX="$ZSH_THEME_GIT_PROMPT_PREFIX"
-ZSH_THEME_HG_PROMPT_SUFFIX="$ZSH_THEME_GIT_PROMPT_SUFFIX"
-ZSH_THEME_HG_PROMPT_DIRTY="$ZSH_THEME_GIT_PROMPT_DIRTY"
-ZSH_THEME_HG_PROMPT_CLEAN="$ZSH_THEME_GIT_PROMPT_CLEAN"
 
-ZSH_THEME_RUBY_PROMPT_PREFIX="%{$fg[red]%}‹"
-ZSH_THEME_RUBY_PROMPT_SUFFIX="› %{$reset_color%}"
 
-ZSH_THEME_VIRTUAL_ENV_PROMPT_PREFIX="%{$fg[green]%}‹"
-ZSH_THEME_VIRTUAL_ENV_PROMPT_SUFFIX="› %{$reset_color%}"
-ZSH_THEME_VIRTUALENV_PREFIX="$ZSH_THEME_VIRTUAL_ENV_PROMPT_PREFIX"
-ZSH_THEME_VIRTUALENV_SUFFIX="$ZSH_THEME_VIRTUAL_ENV_PROMPT_SUFFIX"
+source ~/.config/zsh/theme/bira.zsh
+source ~/.config/zsh/lib/prompt_info_functions.zsh
 
-source ~/.config/zsh/git.plugin.zsh
-source ~/.config/zsh/docker.plugin.zsh
-source ~/.config/zsh/fzf.plugin.zsh
+
 
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 
 
   alias v='neovide'
@@ -56,3 +49,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
   alias update='doas pacman -Syu --noconfirm'
   alias syc='doas pacman -Syy'
   alias zsrc='source ~/.zshrc'
+
+
