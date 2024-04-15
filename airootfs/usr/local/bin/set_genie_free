@@ -1,0 +1,7 @@
+doas sed -i 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=0/g' /etc/default/grub
+
+doas grub-mkconfig -o /boot/grub/grub.cfg
+
+doas rm /usr/local/bin/set_genie_free
+
+echo "thank you my friend ;)"
