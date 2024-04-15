@@ -17,5 +17,10 @@ rm -rf yay
 
 doas rm -rf /etc/calamares
 
+doas cp ~/documents/neofetch /bin/neofetch
+chmod +x /bin/neofetch
+
+doas rm /usr/local/bin/rub_the_magic_lamp
+
 echo "Genie is at your service"
 
